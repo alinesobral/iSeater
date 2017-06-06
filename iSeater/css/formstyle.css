@@ -1,0 +1,48 @@
+#generateChartForm {
+    margin-top: 5%;
+    text-align: center;
+}
+#generateChartForm input[type="text"] {
+    width: 8%;
+    height: 4%;
+}
+.formSection {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 200%;
+    text-align: center;
+    color: #444;
+}
+.formLabel{
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+}
+.genderGroup, .orderGroup{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.genderBox, .orderBox{
+    display: inline-block;
+    width: 23%;
+    padding: 0 5%;
+}
+.orderBox{
+    padding: 0 0%;
+    width: 18%
+}
+.orderGroup img, .genderGroup img {
+    width: auto;
+    height: 20%;
+    box-shadow: 5px 5px 5px #aaa;
+}
+/*.genderBox img, .orderBox img {
+    width: 77%;
+    height: 20%;
+    box-shadow: 5px 5px 5px #aaa;
+}*/
+.submitButton:hover {
+    background-color: #4dd7fa;
+}
+.submitButton:active {
+    background-color: #006e8c;
+}

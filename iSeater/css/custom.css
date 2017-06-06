@@ -1,0 +1,27 @@
+.studentsList{
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+}
+
+#left{
+    float: left;
+    width: 10%;
+    margin-left: 5%;
+    padding-right: 5%;
+    border-right: 3px solid #ccc;
+    height: 100%;
+}
+
+#right{
+    float: left;
+    width: 80%;
+    padding-left: 3%;
+    height: 100%;
+}
+
+#bottom {
+    border-top: 3px solid #ccc;
+}
